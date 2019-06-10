@@ -10,14 +10,21 @@
 
 <body>
     <div id="app">
-        <h2>Temporizador</h2>
+        <input type="text" id="nome">
+        <button onclick="cumprimentar()">Enviar</button>
     </div>
     <script>
-        function disparaAlerta() {
-            var app = document.querySelector('#app');
-            texto = app.textContent;
-            alert(texto )
-        } setInterval(disparaAlerta, 4000);
+
+        function cumprimentar() {
+            alert("ola");
+
+        }
+/*
+        var input = document
+            .querySelector('#nome');
+
+        console.log(input.textContent);
+*/
     </script>
 </body>
 
